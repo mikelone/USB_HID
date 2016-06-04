@@ -24,6 +24,8 @@ is the descriptor of the USB device. It has VID and the PID the device ID and pr
 is the driver of the USB device. You can recycle the driver with different VID & PID settings.
 
 You can use *INF Wizard* program  to create your own driver .
+
+![](https://cloud.githubusercontent.com/assets/19749326/15800701/83865d60-2a4e-11e6-8361-1f98541eb003.png)
  
 ##How to run the file
 
