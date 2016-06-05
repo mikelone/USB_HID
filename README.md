@@ -10,13 +10,13 @@ I use this skeleton usb program for projects..
 
 simpleUSB.c  
 
-is a simple program to send the device information to the host computer.
+is a simple program to send the device's descriptor information to the host computer.
 
 
 
 ###USBdsc.c 
 
-is the descriptor of the USB device. It has VID and the PID the device ID and product ID
+is the descriptor of the USB device. It has VID and the PID the vendor ID and product ID
 
 
 ###USB_test_driver.inf 
@@ -34,7 +34,7 @@ I used the program and compliler MikroPro C for PIC32. very easy program to star
 just load the two files  simpleUSB.c  &  USBdsc.c and complile .. you can also change devices from PIC32mx795f512 to PIC32mx592f512 ;however, you need have to enable the pullup and pll configurations on the pic. The MikroPro has a configuration tool icon and HID tool too.
 
 Follow the connections for the basic power on connections  given from the PIC32 data sheets 
-and  connect the USB – and + to pins 56 and 57 
+and  connect the USB â€“ and + to pins 56 and 57 
 
 ##Bugs
 
